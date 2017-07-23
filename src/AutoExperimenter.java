@@ -1,49 +1,87 @@
 import com.google.gson.Gson;
+import data_experimenter.AttributeFilter;
+import data_experimenter.Dataset_Info;
+import data_experimenter.Experiment;
+import data_experimenter.ResultHolder;
 import weka.core.Instances;
 import weka.core.converters.ArffLoader;
+import weka.core.converters.CSVLoader;
 
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.sql.Timestamp;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.List;
-import java.util.Scanner;
 
 /**
  * Created by msrabon on 09-Jul-17.
  */
 public class AutoExperimenter {
     static Gson gson = new Gson();
+    static Experiment experiment = Experiment.getInstance();
+    static AttributeFilter attributeFilter = AttributeFilter.getInstance();
+    static ResultHolder resultHolder = ResultHolder.getInstance();
 
     public static void main(String[] args) throws Exception {
-        Scanner scanner = new Scanner(System.in);
+        ArffLoader arffLoader = new ArffLoader();
+        CSVLoader csvLoader = new CSVLoader();
+        Instances data;
 
-        System.out.print("Enter Data file Path: ");
-        String file = "data/hypothyroid.arff";
-//        file = scanner.next();
+        File folder = new File("data/");
+        File[] listOfFiles = folder.listFiles();
 
-        File file1 = new File(file);
-        ArffLoader loader = new ArffLoader();
-        loader.setSource(file1);
-        Instances data = loader.getDataSet();
+        for (File file : listOfFiles) {
+            if (file.isFile()) {
 
-        Experiment experiment = Experiment.getInstance();
+                if (file.getName().contains(".arff")) {
+                    arffLoader.setSource(file);
+                    data = arffLoader.getDataSet();
+                    if (data.classIndex() == -1) {
+                        data.setClassIndex(data.numAttributes() - 1);
+                    }
+                    autoMate(data, file.getName());
+                } else if (file.getName().contains(".csv")) {
+                    csvLoader.setSource(file);
+                    data = csvLoader.getDataSet();
+                    if (data.classIndex() == -1) {
+                        data.setClassIndex(data.numAttributes() - 1);
+                    }
+                    autoMate(data, file.getName());
+                } else {
+                    System.out.println("ERROR!!!");
+                }
 
+            }
+        }
+
+        writeToJsonFile();
+    }
+
+    public static void autoMate(Instances data, String name) throws Exception {
         experiment.setInstances(data);
-        experiment.setDataSetName(file1.getName());
+        experiment.setDatasetInfo(new Dataset_Info(name, data.numInstances(), data.numAttributes()));
+        experiment.runZeroR(10);
+        experiment.runOneR(10);
         experiment.runKNN(10, 3);
         experiment.runNaiveBayesWith_K_FoldCrossValidation(10);
         experiment.runID3(10);
         experiment.runJ48(10);
         experiment.runCART(10);
-
-        writeToJsonFile();
+        Dataset_Info dataset_info = experiment.getDatasetInfo();
+        resultHolder.addToResultList(dataset_info);
+        System.out.println("************************************************************************************");
+        System.out.println(dataset_info);
+        dataset_info.viewResultList();
+        System.out.println("####################################################################################");
     }
 
     public static void writeToJsonFile() {
 
         ResultHolder resultHolder = ResultHolder.getInstance();
-        List<Result> resultList = resultHolder.getResultList();
-        try (FileWriter file = new FileWriter("result.json")) {
+        List<Dataset_Info> resultList = resultHolder.getResultList();
+        try (FileWriter file = new FileWriter("result_"+ (new SimpleDateFormat("yyyy_MM_dd_HH_mm_ss").format(new Date())).toString() +".json")) {
             file.write(gson.toJson(resultList));
             file.flush();
         } catch (IOException e) {

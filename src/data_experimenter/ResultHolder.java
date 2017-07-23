@@ -1,3 +1,5 @@
+package data_experimenter;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -6,7 +8,7 @@ import java.util.List;
  */
 public class ResultHolder {
     private static ResultHolder ourInstance = new ResultHolder();
-    private List<Result> resultList = new ArrayList<>();
+    private List<Dataset_Info> resultList = new ArrayList<>();
 
     public static ResultHolder getInstance() {
         return ourInstance;
@@ -15,15 +17,15 @@ public class ResultHolder {
     private ResultHolder() {
     }
 
-    public List<Result> getResultList() {
+    public List<Dataset_Info> getResultList() {
         return resultList;
     }
 
-    public void addToResults(Result result){
-        resultList.add(result);
+    public void addToResultList(Dataset_Info datasetInfo) {
+        resultList.add(datasetInfo);
     }
 
-    public void setResultList(List<Result> resultList) {
+    public void setResultList(List<Dataset_Info> resultList) {
         this.resultList = resultList;
     }
 }
