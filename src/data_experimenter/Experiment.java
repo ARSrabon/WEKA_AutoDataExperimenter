@@ -10,7 +10,11 @@ import weka.classifiers.trees.Id3;
 import weka.classifiers.trees.J48;
 import weka.classifiers.trees.SimpleCart;
 import weka.core.Instances;
+import weka.core.converters.ArffLoader;
+import weka.core.converters.CSVLoader;
 
+import java.io.File;
+import java.io.IOException;
 import java.util.Random;
 
 /**
@@ -42,6 +46,26 @@ public class Experiment {
     }
 
     private Experiment() {
+    }
+
+    public void loadDataSet(File file) throws IOException {
+        ArffLoader arffLoader = new ArffLoader();
+        CSVLoader csvLoader = new CSVLoader();
+        if (file.isFile()) {
+
+            if (file.getName().contains(".arff")) {
+                arffLoader.setSource(file);
+                instances = arffLoader.getDataSet();
+                this.datasetInfo = new Dataset_Info(file.getName(),instances.numInstances(),instances.numAttributes());
+            } else if (file.getName().contains(".csv")) {
+                csvLoader.setSource(file);
+                instances = csvLoader.getDataSet();
+                this.datasetInfo = new Dataset_Info(file.getName(),instances.numInstances(),instances.numAttributes());
+            }
+//            else {
+//                System.out.println("ERROR!!!");
+//            }
+        }
     }
 
     /**

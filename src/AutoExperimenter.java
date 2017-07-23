@@ -3,6 +3,14 @@ import data_experimenter.AttributeFilter;
 import data_experimenter.Dataset_Info;
 import data_experimenter.Experiment;
 import data_experimenter.ResultHolder;
+import javafx.application.Application;
+import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
+import javafx.scene.control.RadioButton;
+import javafx.scene.control.ToggleGroup;
+import javafx.stage.Stage;
 import weka.core.Instances;
 import weka.core.converters.ArffLoader;
 import weka.core.converters.CSVLoader;
@@ -18,45 +26,48 @@ import java.util.List;
 /**
  * Created by msrabon on 09-Jul-17.
  */
-public class AutoExperimenter {
+public class AutoExperimenter extends Application {
     static Gson gson = new Gson();
     static Experiment experiment = Experiment.getInstance();
     static AttributeFilter attributeFilter = AttributeFilter.getInstance();
     static ResultHolder resultHolder = ResultHolder.getInstance();
 
+
+
     public static void main(String[] args) throws Exception {
-        ArffLoader arffLoader = new ArffLoader();
-        CSVLoader csvLoader = new CSVLoader();
-        Instances data;
-
-        File folder = new File("data/");
-        File[] listOfFiles = folder.listFiles();
-
-        for (File file : listOfFiles) {
-            if (file.isFile()) {
-
-                if (file.getName().contains(".arff")) {
-                    arffLoader.setSource(file);
-                    data = arffLoader.getDataSet();
-                    if (data.classIndex() == -1) {
-                        data.setClassIndex(data.numAttributes() - 1);
-                    }
-                    autoMate(data, file.getName());
-                } else if (file.getName().contains(".csv")) {
-                    csvLoader.setSource(file);
-                    data = csvLoader.getDataSet();
-                    if (data.classIndex() == -1) {
-                        data.setClassIndex(data.numAttributes() - 1);
-                    }
-                    autoMate(data, file.getName());
-                } else {
-                    System.out.println("ERROR!!!");
-                }
-
-            }
-        }
-
-        writeToJsonFile();
+        launch(args);
+//        ArffLoader arffLoader = new ArffLoader();
+//        CSVLoader csvLoader = new CSVLoader();
+//        Instances data;
+//
+//        File folder = new File("data/");
+//        File[] listOfFiles = folder.listFiles();
+//
+//        for (File file : listOfFiles) {
+//            if (file.isFile()) {
+//
+//                if (file.getName().contains(".arff")) {
+//                    arffLoader.setSource(file);
+//                    data = arffLoader.getDataSet();
+//                    if (data.classIndex() == -1) {
+//                        data.setClassIndex(data.numAttributes() - 1);
+//                    }
+//                    autoMate(data, file.getName());
+//                } else if (file.getName().contains(".csv")) {
+//                    csvLoader.setSource(file);
+//                    data = csvLoader.getDataSet();
+//                    if (data.classIndex() == -1) {
+//                        data.setClassIndex(data.numAttributes() - 1);
+//                    }
+//                    autoMate(data, file.getName());
+//                } else {
+//                    System.out.println("ERROR!!!");
+//                }
+//
+//            }
+//        }
+//
+//        writeToJsonFile();
     }
 
     public static void autoMate(Instances data, String name) throws Exception {
@@ -88,4 +99,13 @@ public class AutoExperimenter {
             e.printStackTrace();
         }
     }
+
+    @Override
+    public void start(Stage primaryStage) throws Exception {
+        Parent root = FXMLLoader.load(getClass().getResource("auto_experimenter_gui.fxml"));
+        primaryStage.setTitle("Auto Data Experimenter");
+        primaryStage.setScene(new Scene(root, 700, 450));
+        primaryStage.show();
+    }
+
 }
