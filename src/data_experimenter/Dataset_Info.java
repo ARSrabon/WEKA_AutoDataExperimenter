@@ -68,6 +68,12 @@ public class Dataset_Info {
             System.out.println(result.toString());
         }
     }
+    public String printResultList(){
+        for (Result result: resultList){
+            return result.getConsoleString();
+        }
+        return null;
+    }
 
     public void addToResultsList(Result result) {
         this.resultList.add(result);
@@ -87,6 +93,10 @@ public class Dataset_Info {
 
     public void setNo_Attributes(int no_Attributes) {
         this.no_Attributes = no_Attributes;
+    }
+
+    public String getConsoleString() {
+       return getDatasetName()+ " \nAttributes: " + getNo_Attributes() +" \nInstances: " + getNo_Instances() + " \n";
     }
 
     @Override

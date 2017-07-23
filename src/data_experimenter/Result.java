@@ -138,6 +138,11 @@ public class Result {
         this.runTime = runTime;
     }
 
+    public String getConsoleString() {
+        return getTestName() + "    " + getAccuracy() + "   " + getErrorRate() + "      " + getF_measure() + "      "
+                + getRecall() + "     " + getSpecificity() + "    " + getW_Precision() + "    " + getRunTime() + "ms \n";
+    }
+
     @Override
     public String toString() {
         return getTestName() + " " + getAccuracy() + " " + getErrorRate() + " " + getF_measure() + " " + getRecall()

@@ -40,7 +40,7 @@ public class ResultHolder {
 
         ResultHolder resultHolder = ResultHolder.getInstance();
         List<Dataset_Info> resultList = resultHolder.getResultList();
-        try (FileWriter file = new FileWriter("result_"+ (new SimpleDateFormat("yyyy_MM_dd_HH_mm_ss").format(new Date())).toString() +".json")) {
+        try (FileWriter file = new FileWriter("result_" + (new SimpleDateFormat("yyyy_MM_dd_HH_mm_ss").format(new Date())).toString() + ".json")) {
             file.write(gson.toJson(resultList));
             file.flush();
         } catch (IOException e) {

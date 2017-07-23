@@ -70,10 +70,10 @@
         </GridPane>
         <Label layoutX="260.0" layoutY="54.0" prefHeight="24.0" prefWidth="119.0" text="Cross-Validation (n=)" />
         <TextField fx:id="edit_cvs" layoutX="380.0" layoutY="54.0" prefHeight="25.0" prefWidth="35.0" />
-        <Button fx:id="btn_run_test" onAction="#runTest" layoutX="432.0" layoutY="54.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="100.0" text="Run Test" />
+        <Button fx:id="btn_run_test" layoutX="432.0" layoutY="54.0" mnemonicParsing="false" onAction="#runTest" prefHeight="25.0" prefWidth="100.0" text="Run Test" />
         <ScrollPane layoutX="205.0" layoutY="86.0" prefHeight="363.0" prefWidth="495.0">
             <content>
-                <TextArea fx:id="txt_console" prefHeight="360.0" prefWidth="492.0" wrapText="true" />
+                <TextArea fx:id="txt_console" prefHeight="360.0" prefWidth="492.0" />
             </content>
         </ScrollPane>
     </children>
