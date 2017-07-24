@@ -1,0 +1,36 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="WEKA_AutoDataExperimenter:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/WEKA_AutoDataExperimenter_jar</output-path>
+    <root id="archive" name="WEKA_AutoDataExperimenter.jar">
+      <element id="module-output" name="WEKA_AutoDataExperimenter" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/simpleCART-1.0.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/weka-dev-3.9.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/java-cup-11b-2015.03.26.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/java-cup-11b-runtime-2015.03.26.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/bounce-0.18.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/mtj-1.0.4.jar" path-in-jar="/" />
+      <element id="dir-copy" path="$PROJECT_DIR$/lib/all-1.1.2.pom" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/arpack_combined_all-0.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/core-1.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/netlib-native_ref-osx-x86_64-1.1-natives.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/native_ref-java-1.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/jniloader-1.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/netlib-native_ref-linux-x86_64-1.1-natives.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/netlib-native_ref-linux-i686-1.1-natives.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/netlib-native_ref-win-x86_64-1.1-natives.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/netlib-native_ref-win-i686-1.1-natives.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/netlib-native_ref-linux-armhf-1.1-natives.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/netlib-native_system-osx-x86_64-1.1-natives.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/native_system-java-1.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/netlib-native_system-linux-x86_64-1.1-natives.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/netlib-native_system-linux-i686-1.1-natives.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/netlib-native_system-linux-armhf-1.1-natives.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/netlib-native_system-win-x86_64-1.1-natives.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/netlib-native_system-win-i686-1.1-natives.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/netlib-java-1.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/weka.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/simpleEducationalLearningSchemes-1.0.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/gson-2.8.1.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

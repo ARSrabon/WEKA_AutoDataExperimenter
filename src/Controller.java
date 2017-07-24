@@ -250,7 +250,7 @@ public class Controller {
         experiment.runCART(10);
         Dataset_Info dataset_info = experiment.getDatasetInfo();
         resultHolder.addToResultList(dataset_info);
-        txt_console.appendText("========== Test Results ============");
+        txt_console.appendText("========== Test Results ============\n");
         showResultsToConsole();
     }
 

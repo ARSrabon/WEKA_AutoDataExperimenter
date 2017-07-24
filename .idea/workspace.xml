@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="WEKA_AutoDataExperimenter:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="acc383af-250c-4e45-9295-b5d140abcb68" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/WEKA_AutoDataExperimenter_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WEKA_AutoDataExperimenter/Controller.class" afterPath="$PROJECT_DIR$/out/production/WEKA_AutoDataExperimenter/Controller.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WEKA_AutoDataExperimenter/data_experimenter/Dataset_Info.class" afterPath="$PROJECT_DIR$/out/production/WEKA_AutoDataExperimenter/data_experimenter/Dataset_Info.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WEKA_AutoDataExperimenter/data_experimenter/Result.class" afterPath="$PROJECT_DIR$/out/production/WEKA_AutoDataExperimenter/data_experimenter/Result.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/WEKA_AutoDataExperimenter/.idea/workspace.xml" afterPath="$PROJECT_DIR$/out/production/WEKA_AutoDataExperimenter/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Controller.java" afterPath="$PROJECT_DIR$/src/Controller.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/auto_experimenter_gui.fxml" afterPath="$PROJECT_DIR$/src/auto_experimenter_gui.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/data_experimenter/Dataset_Info.java" afterPath="$PROJECT_DIR$/src/data_experimenter/Dataset_Info.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/data_experimenter/Result.java" afterPath="$PROJECT_DIR$/src/data_experimenter/Result.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/data_experimenter/ResultHolder.java" afterPath="$PROJECT_DIR$/src/data_experimenter/ResultHolder.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,42 +24,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Controller.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Controller.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="260" column="36" lean-forward="false" selection-start-line="260" selection-start-column="36" selection-end-line="260" selection-end-column="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#selectFolder#0;class#Controller#0" expanded="true" />
-                <element signature="method#selectFile#0;class#Controller#0" expanded="true" />
-                <element signature="method#enableSelection#0;class#Controller#0" expanded="true" />
-                <element signature="method#disableSelection#0;class#Controller#0" expanded="true" />
-                <element signature="method#enable_disable#0;class#Controller#0" expanded="true" />
-                <element signature="method#runTest#0;class#Controller#0" expanded="true" />
-                <element signature="method#alert#0;class#Controller#0" expanded="true" />
-                <element signature="method#selectedTest#0;class#Controller#0" expanded="true" />
-                <element signature="method#autoMate#0;class#Controller#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Result.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/data_experimenter/Result.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="140" column="18" lean-forward="false" selection-start-line="140" selection-start-column="18" selection-end-line="140" selection-end-column="18" />
-              <folding>
-                <element signature="method#getConsoleString#0;class#Result#0" expanded="true" />
-                <element signature="method#toString#0;class#Result#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -138,13 +106,30 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="WEKA_AutoDataExperimenter" type="b2602c69:ProjectViewProjectNode" />
               <item name="WEKA_AutoDataExperimenter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WEKA_AutoDataExperimenter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WEKA_AutoDataExperimenter" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WEKA_AutoDataExperimenter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WEKA_AutoDataExperimenter" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WEKA_AutoDataExperimenter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WEKA_AutoDataExperimenter" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+              <item name="WEKA_AutoDataExperimenter_jar" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="WEKA_AutoDataExperimenter" type="b2602c69:ProjectViewProjectNode" />
@@ -161,19 +146,20 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.46868008" />
-    <property name="last_opened_file_path" value="E:/Programming &amp; Projects/AnyFileShare 2.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="SearchEverywhereHistoryKey" value="javadoc&#9;ACTION&#9;GenerateJavadoc" />
     <property name="Downloaded.Files.Path.Enabled" value="true" />
     <property name="Repository.Attach.JavaDocs" value="true" />
@@ -197,7 +183,7 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.AutoExperimenter">
-    <configuration name="AutoExperimenter" type="Application" factoryName="Application" singleton="true" temporary="true" nameIsGenerated="true">
+    <configuration name="AutoExperimenter" type="Application" factoryName="Application" singleton="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="AutoExperimenter" />
       <option name="VM_PARAMETERS" value="" />
@@ -210,25 +196,10 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="WEKA_AutoDataExperimenter" />
       <envs />
-    </configuration>
-    <configuration name="Gui" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="data_experimenter.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="data_experimenter.Gui" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="WEKA_AutoDataExperimenter" />
-      <envs />
+      <method>
+        <option name="BuildArtifacts" enabled="true" />
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
       <module />
@@ -625,16 +596,6 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="Application.AutoExperimenter" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Gui" />
-    </list>
-    <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Application.AutoExperimenter" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Gui" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -666,16 +627,17 @@
       <workItem from="1500736733541" duration="13445000" />
       <workItem from="1500792912104" duration="4660000" />
       <workItem from="1500816623472" duration="939000" />
-      <workItem from="1500823733699" duration="7627000" />
+      <workItem from="1500823733699" duration="7776000" />
+      <workItem from="1500833195154" duration="1059000" />
+      <workItem from="1500930645646" duration="247000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54818000" />
+    <option name="totallyTimeSpent" value="56273000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -685,20 +647,20 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28478965" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28478965" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847896" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="JSON Viewer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16641453" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1709531" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39967638" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -854,7 +816,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="86">
           <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -862,11 +823,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
-          <folding>
-            <element signature="e#2470#2471#0" expanded="true" />
-            <element signature="e#5255#5256#0" expanded="true" />
-            <element signature="e#5312#5313#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -874,9 +830,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="105" column="0" lean-forward="false" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
-          <folding>
-            <element signature="method#AbstractFileLoader#0;class#AbstractFileLoader#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -884,7 +837,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="123">
           <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -892,17 +844,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="86">
           <caret line="291" column="0" lean-forward="false" selection-start-line="291" selection-start-column="0" selection-end-line="291" selection-end-column="0" />
-          <folding>
-            <element signature="e#1657#1658#0" expanded="true" />
-            <element signature="e#1719#1720#0" expanded="true" />
-            <element signature="method#Attribute#1;class#Attribute#0" expanded="true" />
-            <element signature="method#Attribute#6;class#Attribute#0" expanded="true" />
-            <element signature="method#Attribute#7;class#Attribute#0" expanded="true" />
-            <element signature="method#Attribute#9;class#Attribute#0" expanded="true" />
-            <element signature="e#9922#9923#0" expanded="true" />
-            <element signature="method#Attribute#10;class#Attribute#0" expanded="true" />
-            <element signature="method#Attribute#12;class#Attribute#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -910,25 +851,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="86">
           <caret line="677" column="0" lean-forward="false" selection-start-line="677" selection-start-column="0" selection-end-line="677" selection-end-column="0" />
-          <folding>
-            <element signature="method#ArffLoader#0;class#ArffLoader#0" expanded="true" />
-            <element signature="e#1866#1867#0" expanded="true" />
-            <element signature="e#1903#1904#0" expanded="true" />
-            <element signature="e#1946#1947#0" expanded="true" />
-            <element signature="e#2024#2025#0" expanded="true" />
-            <element signature="method#setSource#1;class#ArffLoader#0" expanded="true" />
-            <element signature="method#getStructure#0;class#ArffLoader#0" expanded="true" />
-            <element signature="method#getDataSet#0;class#ArffLoader#0" expanded="true" />
-            <element signature="initializer##0;class#ArffLoader#0" expanded="true" />
-            <element signature="method#ArffReader#2;class#ArffReader#0;class#ArffLoader#0" expanded="true" />
-            <element signature="method#ArffReader#5;class#ArffReader#0;class#ArffLoader#0" expanded="true" />
-            <element signature="method#getFirstToken#0;class#ArffReader#0;class#ArffLoader#0" expanded="true" />
-            <element signature="method#getLastToken#0;class#ArffReader#0;class#ArffLoader#0" expanded="true" />
-            <element signature="method#getNextToken#0;class#ArffReader#0;class#ArffLoader#0" expanded="true" />
-            <element signature="method#initTokenizer#0;class#ArffReader#0;class#ArffLoader#0" expanded="true" />
-            <element signature="method#parseAttribute#0;class#ArffReader#0;class#ArffLoader#0" expanded="true" />
-            <element signature="method#readTillEOL#0;class#ArffReader#0;class#ArffLoader#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -936,12 +858,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding>
-            <element signature="method#AbstractLoader#0;class#AbstractLoader#0" expanded="true" />
-            <element signature="e#506#507#0" expanded="true" />
-            <element signature="e#545#546#0" expanded="true" />
-            <element signature="e#620#621#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -949,7 +865,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="129" column="0" lean-forward="false" selection-start-line="129" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -967,9 +882,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
           <caret line="159" column="0" lean-forward="false" selection-start-line="159" selection-start-column="0" selection-end-line="159" selection-end-column="0" />
-          <folding>
-            <element signature="e#5247#5248#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -978,12 +890,12 @@
         <state relative-caret-position="158">
           <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
           <folding>
-            <element signature="e#506#507#0" expanded="true" />
-            <element signature="e#540#541#0" expanded="true" />
-            <element signature="e#625#626#0" expanded="true" />
-            <element signature="e#658#659#0" expanded="true" />
-            <element signature="e#719#720#0" expanded="true" />
-            <element signature="e#762#763#0" expanded="true" />
+            <element signature="e#506#507#0" expanded="false" />
+            <element signature="e#540#541#0" expanded="false" />
+            <element signature="e#625#626#0" expanded="false" />
+            <element signature="e#658#659#0" expanded="false" />
+            <element signature="e#719#720#0" expanded="false" />
+            <element signature="e#762#763#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -992,7 +904,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="75" column="0" lean-forward="false" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1000,10 +911,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="158">
           <caret line="116" column="0" lean-forward="false" selection-start-line="116" selection-start-column="0" selection-end-line="116" selection-end-column="0" />
-          <folding>
-            <element signature="method#excludeClass#0;class#Excluder#0" expanded="false" />
-            <element signature="method#isAnonymousOrLocal#0;class#Excluder#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1011,7 +918,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1019,7 +925,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1027,7 +932,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1035,7 +939,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1043,9 +946,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-          <folding>
-            <element signature="method#checkArgument#0;class#$Gson$Preconditions#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1053,22 +953,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="226">
           <caret line="152" column="0" lean-forward="false" selection-start-line="152" selection-start-column="0" selection-end-line="152" selection-end-column="0" />
-          <folding>
-            <element signature="method#newParameterizedTypeWithOwner#0;class#$Gson$Types#0" expanded="false" />
-            <element signature="method#canonicalize#0;class#$Gson$Types#0" expanded="false" />
-            <element signature="method#getGenericSupertype#0;class#$Gson$Types#0" expanded="false" />
-            <element signature="method#getSupertype#0;class#$Gson$Types#0" expanded="false" />
-            <element signature="method#getCollectionElementType#0;class#$Gson$Types#0" expanded="false" />
-            <element signature="method#resolve#0;class#$Gson$Types#0" expanded="false" />
-            <element signature="method#resolveTypeVariable#0;class#$Gson$Types#0" expanded="false" />
-            <element signature="method#indexOf#0;class#$Gson$Types#0" expanded="false" />
-            <element signature="method#declaringClassOf#0;class#$Gson$Types#0" expanded="false" />
-            <element signature="method#checkNotPrimitive#0;class#$Gson$Types#0" expanded="false" />
-            <element signature="class#ParameterizedTypeImpl#0;class#$Gson$Types#0" expanded="false" />
-            <element signature="method#ParameterizedTypeImpl#0;class#ParameterizedTypeImpl#0;class#$Gson$Types#0" expanded="false" />
-            <element signature="e#17417#17418#0" expanded="false" />
-            <element signature="e#17459#17460#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1076,14 +960,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="141">
           <caret line="884" column="0" lean-forward="false" selection-start-line="884" selection-start-column="0" selection-end-line="884" selection-end-column="0" />
-          <folding>
-            <element signature="method#newFactory#1;class#TypeAdapters#0" expanded="false" />
-            <element signature="method#create#0;class#27552:27984" expanded="false" />
-            <element signature="method#newFactory#2;class#TypeAdapters#0" expanded="false" />
-            <element signature="method#create#0;class#28157:28697" expanded="false" />
-            <element signature="method#newFactoryForMultipleTypes#0;class#TypeAdapters#0" expanded="false" />
-            <element signature="method#create#0;class#28890:29420" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1091,11 +967,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="141">
           <caret line="84" column="0" lean-forward="false" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
-          <folding>
-            <element signature="method#newDefaultConstructor#0;class#ConstructorConstructor#0" expanded="false" />
-            <element signature="e#3444#4281#0" expanded="false" />
-            <element signature="e#4280#4281#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1103,7 +974,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
           <caret line="118" column="0" lean-forward="false" selection-start-line="118" selection-start-column="0" selection-end-line="118" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1111,7 +981,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1119,10 +988,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="124">
           <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
-          <folding>
-            <element signature="class#Adapter#0;class#CollectionTypeAdapterFactory#0" expanded="false" />
-            <element signature="method#Adapter#0;class#Adapter#0;class#CollectionTypeAdapterFactory#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1130,16 +995,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="107">
           <caret line="279" column="0" lean-forward="false" selection-start-line="279" selection-start-column="0" selection-end-line="279" selection-end-column="0" />
-          <folding>
-            <element signature="method#TypeToken#1;class#TypeToken#0" expanded="false" />
-            <element signature="e#3181#3182#0" expanded="false" />
-            <element signature="e#3205#3206#0" expanded="false" />
-            <element signature="e#3294#3295#0" expanded="false" />
-            <element signature="e#3315#3316#0" expanded="false" />
-            <element signature="e#8993#8994#0" expanded="false" />
-            <element signature="e#9361#9362#0" expanded="false" />
-            <element signature="e#9405#9406#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1147,15 +1002,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
           <caret line="664" column="0" lean-forward="false" selection-start-line="664" selection-start-column="0" selection-end-line="664" selection-end-column="0" />
-          <folding>
-            <element signature="method#getAdapter#0;class#Gson#0" expanded="false" />
-            <element signature="method#toJson#0;class#Gson#0" expanded="false" />
-            <element signature="method#toJson#1;class#Gson#0" expanded="false" />
-            <element signature="method#toJson#3;class#Gson#0" expanded="false" />
-            <element signature="method#newJsonWriter#0;class#Gson#0" expanded="false" />
-            <element signature="class#FutureTypeAdapter#0;class#Gson#0" expanded="false" />
-            <element signature="method#setDelegate#0;class#FutureTypeAdapter#0;class#Gson#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1163,13 +1009,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1228">
           <caret line="253" column="0" lean-forward="false" selection-start-line="253" selection-start-column="0" selection-end-line="253" selection-end-column="0" />
-          <folding>
-            <element signature="initializer##0;class#JsonWriter#0" expanded="false" />
-            <element signature="initializer##1;class#JsonWriter#0" expanded="false" />
-            <element signature="method#JsonWriter#0;class#JsonWriter#0" expanded="false" />
-            <element signature="e#8836#8837#0" expanded="false" />
-            <element signature="method#push#0;class#JsonWriter#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1177,7 +1016,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="107">
           <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1185,13 +1023,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="807" column="0" lean-forward="false" selection-start-line="807" selection-start-column="0" selection-end-line="807" selection-end-column="0" />
-          <folding>
-            <element signature="method#Instances#5;class#Instances#0" expanded="true" />
-            <element signature="e#7440#7441#0" expanded="true" />
-            <element signature="e#7480#7481#0" expanded="true" />
-            <element signature="e#16524#16525#0" expanded="true" />
-            <element signature="e#16571#16572#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1200,10 +1031,10 @@
         <state relative-caret-position="217">
           <caret line="257" column="0" lean-forward="false" selection-start-line="257" selection-start-column="0" selection-end-line="257" selection-end-column="0" />
           <folding>
-            <element signature="method#loadDataSet#0;class#Experiment#0" expanded="true" />
-            <element signature="method#runKNN#0;class#Experiment#0" expanded="true" />
-            <element signature="method#runNaiveBayesWith_K_FoldCrossValidation#0;class#Experiment#0" expanded="true" />
-            <element signature="method#runID3#0;class#Experiment#0" expanded="true" />
+            <element signature="method#loadDataSet#0;class#Experiment#0" expanded="false" />
+            <element signature="method#runKNN#0;class#Experiment#0" expanded="false" />
+            <element signature="method#runNaiveBayesWith_K_FoldCrossValidation#0;class#Experiment#0" expanded="false" />
+            <element signature="method#runID3#0;class#Experiment#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1212,10 +1043,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="52">
           <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding>
-            <element signature="method#ZeroR#0;class#ZeroR#0" expanded="true" />
-            <element signature="method#buildClassifier#0;class#ZeroR#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1223,10 +1050,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="86">
           <caret line="72" column="0" lean-forward="false" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
-          <folding>
-            <element signature="method#Utils#0;class#Utils#0" expanded="true" />
-            <element signature="method#readProperties#1;class#Utils#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1234,12 +1057,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="86">
           <caret line="96" column="0" lean-forward="false" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
-          <folding>
-            <element signature="e#1322#1323#0" expanded="true" />
-            <element signature="e#1357#1358#0" expanded="true" />
-            <element signature="method#substitute#0;class#Environment#0" expanded="true" />
-            <element signature="e#2858#2859#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1247,10 +1064,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="106">
           <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding>
-            <element signature="e#381#382#0" expanded="true" />
-            <element signature="e#409#410#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1258,12 +1071,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="86">
           <caret line="208" column="0" lean-forward="false" selection-start-line="208" selection-start-column="0" selection-end-line="208" selection-end-column="0" />
-          <folding>
-            <element signature="method#AbstractClassifier#0;class#AbstractClassifier#0" expanded="true" />
-            <element signature="method#runClassifier#0;class#AbstractClassifier#0" expanded="true" />
-            <element signature="e#7592#7593#0" expanded="true" />
-            <element signature="method#getCapabilities#0;class#AbstractClassifier#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1271,21 +1078,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="86">
           <caret line="68" column="0" lean-forward="false" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
-          <folding>
-            <element signature="method#Capabilities#0;class#Capabilities#0" expanded="true" />
-            <element signature="e#7275#7276#0" expanded="true" />
-            <element signature="e#7311#7312#0" expanded="true" />
-            <element signature="e#7356#7357#0" expanded="true" />
-            <element signature="e#7391#7392#0" expanded="true" />
-            <element signature="method#enable#0;class#Capabilities#0" expanded="true" />
-            <element signature="method#enableDependency#0;class#Capabilities#0" expanded="true" />
-            <element signature="method#enableAllAttributes#0;class#Capabilities#0" expanded="true" />
-            <element signature="method#enableAllAttributeDependencies#0;class#Capabilities#0" expanded="true" />
-            <element signature="method#enableAll#0;class#Capabilities#0" expanded="true" />
-            <element signature="class#Capability#0;class#Capabilities#0" expanded="true" />
-            <element signature="e#43742#43743#0" expanded="true" />
-            <element signature="e#43796#43797#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1293,7 +1085,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="0" column="1850" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="2030" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1301,7 +1092,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1309,7 +1099,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1317,7 +1106,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1335,10 +1123,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/data_experimenter/Result.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="140" column="18" lean-forward="false" selection-start-line="140" selection-start-column="18" selection-end-line="140" selection-end-column="18" />
+        <state relative-caret-position="298">
+          <caret line="141" column="38" lean-forward="false" selection-start-line="141" selection-start-column="38" selection-end-line="141" selection-end-column="38" />
           <folding>
-            <element signature="method#getConsoleString#0;class#Result#0" expanded="true" />
+            <element signature="e#4866#4867#0" expanded="true" />
+            <element signature="e#4896#4897#0" expanded="true" />
             <element signature="method#toString#0;class#Result#0" expanded="true" />
           </folding>
         </state>
@@ -1346,8 +1135,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="260" column="36" lean-forward="false" selection-start-line="260" selection-start-column="36" selection-end-line="260" selection-end-column="36" />
+        <state relative-caret-position="162">
+          <caret line="252" column="70" lean-forward="false" selection-start-line="252" selection-start-column="70" selection-end-line="252" selection-end-column="70" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#selectFolder#0;class#Controller#0" expanded="true" />
@@ -1358,7 +1147,7 @@
             <element signature="method#runTest#0;class#Controller#0" expanded="true" />
             <element signature="method#alert#0;class#Controller#0" expanded="true" />
             <element signature="method#selectedTest#0;class#Controller#0" expanded="true" />
-            <element signature="method#autoMate#0;class#Controller#0" expanded="true" />
+            <element signature="method#showResultsToConsole#0;class#Controller#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1369,10 +1158,12 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>WEKA_AutoDataExperimenter:jar</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.46868008" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -1419,7 +1210,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.46868008" />
                 <option value="0.6" />
               </list>
             </option>
